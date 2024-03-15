@@ -1,0 +1,10 @@
+	This is one of the examples I was able to find from the library that
+I downloaded. In order to download the library with all of the examples, go 
+to Library Manager, and search bitluni. Install the bitluni ESP32Lib and the
+examples should show up just where all of the examples are. 
+
+
+Here is the link to the youtube video for how to set up the pins:
+
+https://www.youtube.com/watch?v=qJ68fRff5_k
+
