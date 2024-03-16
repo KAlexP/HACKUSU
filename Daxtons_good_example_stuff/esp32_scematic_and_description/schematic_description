@@ -1,0 +1,29 @@
+	All right, so here is a description of how the schematics are on the
+esp32 board after much confusion and error.
+
+Analog and digital pins are labeled differently even though they may be the
+same pin. Here are now the analog pins are labeled:
+
+
+If you look at the example program, you'll notice that the analog read pin
+is set to A0. When you are using an analog pin, you have to define it as A
+following some number. If you look at the schematic picture, you can see 
+where those A pins are.
+
+
+Here is how the digital pins are labeled:
+
+With the normal digital pins, however, they are just the same as the GPIO 
+numbers in the schematic, which are also the same as the D number on the 
+physical board. So in the example program, it uses the GPIO pin 13, which
+is the D13 pin on the actual board (near the microUSB next to the vin and
+gnd)
+
+PINS THAT YOU HAVE NOT PROGRAMED FOR MAY STILL PRODUCE OUTPUTS
+
+I tried finding the correct pin by trying to find which one was 
+outputting when I programmed for that. If you don't specifically program 
+for a pin, it can produce an output, so be careful about that.
+
+
+Glory to the globglogabgalab
